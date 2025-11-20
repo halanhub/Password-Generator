@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #111827; /* dark page background */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* CARD */
+.card {
+  background-color: #1F2937;  /* dark card background */
+  padding: 48px 56px;
+  border-radius: 8px;
+  width: 480px;
+  max-width: calc(100% - 40px);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.4);
+}
+
+/* TEXT AREA */
+.text-container {
+  text-align: left;
+  margin-bottom: 32px;
+}
+
+.heading {
+  color: #ffffff;
+  font-size: 32px;
+  line-height: 1.2;
+  margin-bottom: 8px;
+}
+
+.heading span {
+  color: #4ADF86; 
+  display: block;
+}
+
+.subtitle {
+  color: #E5E7EB;
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+
+/* BUTTON */
+button {
+  font-family: inherit;
+  font-size: 16px;
+  background-color: #4ADF86;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 24px;
+  cursor: pointer;
+}
+
+button:hover {
+  filter: brightness(1.05);
+}
+
+/* DIVIDER */
+.divider {
+  height: 1px;
+  background-color: #2F3E53;
+  margin: 32px 0;
+}
+
+/* PASSWORD BOXES */
+.password-container {
+  display: flex;
+  gap: 16px;
+}
+
+.password-box {
+  flex: 1;
+  background-color: #273549;
+  border-radius: 6px;
+  padding: 10px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.password-box p {
+  color: #4ADF86;
+  font-size: 14px;
+  word-break: break-all;
+}
